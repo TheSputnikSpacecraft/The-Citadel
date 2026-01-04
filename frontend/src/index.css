@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #12131a;
+  color: #cfc6b2;
+  font-family: "Cinzel", serif;
+}
+
+.topbar {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #0f1016;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.topbarLeft {
+  display: flex;
+  align-items: center;
+}
+
+.topbarRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbarTitle {
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #e8e1d1;
+}
+
+.page {
+  min-height: calc(100vh - 64px);
+}
+
+.quoteSection {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quoteText {
+  max-width: 900px;
+  font-family: "Cinzel", serif;
+  font-size: 44px;
+  line-height: 1.35;
+  letter-spacing: 1.5px;
+  color: #e8e1d1;
+  margin: 0;
+}
+
+.quoteAttribution {
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgba(232, 225, 209, 0.65);
+}
+
+.landingDesc {
+  margin-top: 60px;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  line-height: 1.6;
+  max-width: 800px;
+  color: rgba(232, 225, 209, 0.85);
+}
+
+#root {
+  min-height: 100vh;
+  background: transparent;
+}
+
+.enterBtnMui {
+  margin-top: 60px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e8e1d1 !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+
+.enterBtnMui:hover {
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+
+.topbarNav:hover {
+  color: #fff;
+}
